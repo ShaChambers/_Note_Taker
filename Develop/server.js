@@ -7,7 +7,7 @@ const uuid = require("./tools/uuid");
 
 // const api = require("/api");
 //init server 3001
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 //middleware app.use's
 app.use(express.json());

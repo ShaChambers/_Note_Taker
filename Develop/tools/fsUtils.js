@@ -32,5 +32,3 @@ const readAndAppend = (content, file) => {
 };
 
 module.exports = { readFromFile, writeToFile, readAndAppend };
-// const fs = require("fs");
-// const util = require("util");
